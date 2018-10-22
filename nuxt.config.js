@@ -18,6 +18,16 @@ module.exports = {
     ]
   },
 
+  router: {
+    extendRoutes (routes, resolve) {
+      routes.push({
+        name: 'custom',
+        path: '/custom',
+        component: resolve(__dirname, 'pages/product.vue')
+      })
+    }
+  },
+
   /*
   ** Customize the progress-bar color
   */
@@ -49,7 +59,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }
