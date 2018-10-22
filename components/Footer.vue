@@ -39,4 +39,8 @@
               a(href="#")
                 img(src="~/assets/img/ic-facebook.svg",width="32",height="32")
           .l-footer__copyright © 2018 Sweetaste* All Rights Reserved
-  </template>
+</template>
+
+<style>
+
+</style>
