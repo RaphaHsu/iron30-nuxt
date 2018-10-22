@@ -43,3 +43,9 @@
             a(href="#")
               img(src="~/assets/img/ic-yahoo.svg",width="97",height="23")
 </template>
+
+<script>
+    export default {
+        layout: 'front'
+    }
+</script>
